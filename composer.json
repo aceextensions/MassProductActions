@@ -1,0 +1,25 @@
+{
+    "name": "aceextensions/module-massproductactions",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "durgashankar.gupta@javra.com",
+            "name": "Durga Shankar Gupta"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aceextensions/ace-core": "^1.0"
+    },
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Aceextensions\\MassProductActions\\": ""
+        }
+    }
+}

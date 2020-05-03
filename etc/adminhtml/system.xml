@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="mass_product_actions" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Mass Product Actions</label>
+			<tab>aceextensions</tab>
+			<resource>Aceextensions_MassProductActions::config_aceextensions_massproductactions</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>general</label>
+				<field id="enable" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="multiselect">
+					<label>Enable Action</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\Enable</source_model>
+				</field>
+				<!-- to do -
+				<field id="price_rounding" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Price Rounding</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\PriceRounding</source_model>
+				</field>
+				<field id="copy_attributes" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Copy Attributes</label>
+					<comment/>
+				</field>
+				<field id="replace_in_attributes" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Replace in Attributes</label>
+					<comment/>
+				</field>
+				<field id="append_text_position" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Append Text Position</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\AppendTextPosition</source_model>
+				</field> -->
+			</group>
+			<!-- to do
+			<group id="product_linking_algorithms" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Product Linking Algorithms</label>
+				<field id="related" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Related</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\Related</source_model>
+				</field>
+				<field id="relate_direction" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Relate Direction</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\RelateDirection</source_model>
+				</field>
+				<field id="up_sell" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Up-sell</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\UpSell</source_model>
+				</field>
+				<field id="up_sell_direction" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Up-sell Direction</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\UpSellDirection</source_model>
+				</field>
+				<field id="cross_sell" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Cross-sell</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\CrossSell</source_model>
+				</field>
+				<field id="cross_sell_direction" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Cross-sell Direction</label>
+					<comment/>
+					<source_model>Aceextensions\MassProductActions\Model\Config\Source\CrossSellDirection</source_model>
+				</field>
+			</group> -->
+		</section>
+	</system>
+</config>

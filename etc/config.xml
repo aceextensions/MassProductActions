@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<mass_product_actions>
+			<general>
+				<enable/>
+				<price_rounding/>
+				<copy_attributes/>
+				<replace_in_attributes/>
+				<append_text_position/>
+			</general>
+			<product_linking_algorithms>
+				<related/>
+				<relate_direction/>
+				<up_sell/>
+				<up_sell_direction/>
+				<cross_sell/>
+				<cross_sell_direction/>
+			</product_linking_algorithms>
+		</mass_product_actions>
+	</default>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction" component="Magento_Ui/js/grid/tree-massactions">
+            <action name="export_product">
+                <settings>
+                    <confirm>
+                        <title translate="true">Export Product </title>
+                        <message translate="true">Are you sure you want to export selected items?</message>
+                    </confirm>
+                    <url path="massproductaction/product/export"/>
+                    <type>export_product</type>
+                    <label translate="true">Export Product</label>
+                </settings>
+            </action>   
+        </massaction>
+    </listingToolbar>
+</listing>
